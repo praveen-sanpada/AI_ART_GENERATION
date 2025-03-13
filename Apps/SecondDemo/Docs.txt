@@ -1,0 +1,6 @@
+
+pip install fastapi uvicorn diffusers torch transformers pillow
+uvicorn app:app --host 0.0.0.0 --port 8000
+http://127.0.0.1:8000/generate/?prompt=A beautiful sunset over mountains
+http://127.0.0.1:8000/static/123abc45.png
+
